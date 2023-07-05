@@ -10,7 +10,7 @@ body {
   max-width: 375px;
   font-family: "Poppins", sans-serif;
   margin: 0 auto;
-  background: #f7f7f9;
+  background: #fff;
 }
 
 header {
@@ -46,7 +46,7 @@ header {
 }
 
 .sadat {
-  margin-top: -10%;
+  margin-top: 10%;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -61,9 +61,12 @@ header {
 
 h1 {
   color: #172b4d;
-  font-size: 36px;
+  font-size: 35px;
   padding: 0 30px 120px 24px;
   font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  line-height: 52px;
+
 }
 
 .mola {
@@ -79,7 +82,7 @@ h1 {
   line-height: 24px;
   font-family: "Poppins", sans-serif;
   position: relative;
-  top: -110px;
+  top: -130px;
 }
 
 .call {
@@ -91,7 +94,7 @@ h1 {
   font-size: 1em;
   line-height: 30px;
   position: relative;
-  bottom: 120px;
+  bottom: 142px;
 }
 
 .socials {
@@ -99,7 +102,7 @@ h1 {
   list-style: none;
   position: relative;
   left: 21px;
-  bottom: 110px;
+  bottom: 130px;
 }
 
 .socials img {
