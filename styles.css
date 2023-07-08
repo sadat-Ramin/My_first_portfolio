@@ -10,7 +10,7 @@ body {
   max-width: 375px;
   font-family: "Poppins", sans-serif;
   margin: 0 auto;
-  background: #fff;
+  background: #DFE1E6;
 }
 
 header {
@@ -25,7 +25,9 @@ header {
   align-items: center;
   justify-content: space-between;
   color: #6070ff;
-  margin-top: 20px;
+  margin-top: 0px;
+  background: #fff;
+  height: 70px;
 }
 
 .logo1 {
@@ -37,16 +39,19 @@ header {
   font-size: 20px;
   padding-left: 25px;
   padding-top: -30px;
+  width: 70px;
 }
 
 .menu-bar {
-  padding-top: 10px;
-  padding-right: 20px;
+  align-items: center;
+  position: relative;
+  padding-top: 30px;
+  right: 1400%;
   font-size: 25px;
 }
 
 .sadat {
-  margin-top: 10%;
+  margin-top: 0%;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -110,25 +115,27 @@ h1 {
 
 .page1 {
   display: grid;
-  margin-top: -100px;
+  margin-top: -130px;
   padding-top: -200px;
   width: 375px;
-  height: 900px;
+  height: 1200px;
   padding-left: 24px;
   padding-right: 24px;
-  background: white;
+  background: #F4F5F7;
 }
 
 .layout1 {
   display: flex;
   flex-direction: column;
   align-content: center;
-  padding: 16px;
-  border-radius: 16px;
+  padding: 14px;
+  border-radius: 12px;
   margin-top: 50px;
   background-color: #fff;
   border: #dfe1e6 solid 2px;
-  width: 100%;
+  width: 87%;
+  margin-left: 0px;
+  margin-top: 100px;
 }
 
 .layout1 img {
@@ -138,7 +145,13 @@ h1 {
 .pra {
   display: flex;
   flex-direction: column;
-  margin: 12px 5px;
+  margin: 12px 12%;
+  border-radius: 12px;
+  margin-top: 50px;
+  background-color: #fff;
+  width: 93%;
+  margin-left: -7px;
+
 }
 
 .title1 {
@@ -291,22 +304,86 @@ h1 {
 
 .page2 {
   margin-top: 80px;
+  background: #F4F5F7;
+  width: 375px;
+  margin-left: -7%;
+}
+.layout2 {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  padding: 14px;
+  border-radius: 12px;
+  margin-top: 50px;
+  background-color: #fff;
+  border: #dfe1e6 solid 2px;
+  width: 87%;
+  margin-left: 22px;
+  margin-top: 5%;
 }
 
 .page3 {
   margin-top: 80px;
+  background: #f4f5f7;
+  margin-left: 0%;
+  width: 375px;
 }
-
-.page4 {
-  background-color: #fff;
+.layout3 {
   display: flex;
   flex-direction: column;
   align-content: center;
-  padding: 16px;
-  border: 1px solid #fff;
-  border-radius: 16px;
-  border-right: 20px;
-  margin-top: 80px;
+  padding: 14px;
+  border-radius: 12px;
+  margin-top: 50px;
+  background-color: #fff;
+  border: #dfe1e6 solid 2px;
+  width: 87%;
+  margin-left: 23px;
+}
+
+.page4 {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  background:#f4f5f7;
+  margin-left: 0%;
+  width: 375px;
+}
+.layout4 {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  padding: 14px;
+  border-radius: 12px;
+  margin-top: 50px;
+  background-color: #fff;
+  border: #dfe1e6 solid 2px;
+  width: 87%;
+  margin-left: 22px;
+  margin-top: 20%;
+}
+.page5 {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  background:#f4f5f7;
+  margin-left: 0%;
+  width: 375px;
+  height: 100%;
+}
+
+.pra1 {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  padding: 25px;
+  border-top-right-radius: 65px;
+  margin-top: 50px;
+  background-color:#fff;
+  width: 100%;
+  margin-left: 0%;
+  height: 100%;
+  margin-top: 30%;
 }
 
 .titleA {
@@ -315,7 +392,7 @@ h1 {
   font-family: "Poppins", sans-serif;
   font-weight: 700;
   line-height: 44px;
-  margin-top: 7%;
+  margin-top: 23%;
 }
 
 .text3 {
@@ -328,7 +405,7 @@ h1 {
 }
 
 .call1 {
-  margin-top: 6%;
+  margin-top: 4%;
   margin-bottom: 45%;
   font-family: "Poppins", sans-serif;
   color: #7f8cff;
@@ -342,8 +419,8 @@ h1 {
   display: flex;
   list-style: none;
   position: relative;
-  left: 8px;
-  bottom: 110px;
+  left: 10px;
+  bottom: 125px;
 }
 
 .socials1 img {
@@ -351,12 +428,14 @@ h1 {
 }
 
 .btn3 {
-  margin-top: -30%;
-  margin-left: 4%;
+  margin-top: -35%;
+  margin-left: 0%;
+  background: #fff;
+  width: 375px;
 }
 
 .btn-get {
-  width: 130px;
+  width: 160px;
   text-align: center;
   height: 48px;
   border: 1px solid #6070ff;
@@ -367,6 +446,7 @@ h1 {
   font-size: 15px;
   transition: 0.2s;
   font-family: "Poppins", sans-serif;
+  margin-left: 7%;
 }
 
 .btn-get:hover {
@@ -396,6 +476,7 @@ h1 {
   font-weight: 500;
   font-size: 20px;
   line-height: 24px;
+  margin-left: 7%;
 }
 
 .java1 {
@@ -412,6 +493,7 @@ h1 {
   align-items: center;
   justify-content: space-between;
   width: 375px;
+  
 }
 
 .accordion li {
@@ -425,26 +507,30 @@ h1 {
   line-height: 24px;
   text-decoration: none;
   color: black;
-  margin-left: 5%;
+  margin-left: 8%;
   margin-bottom: -20%;
 }
-
+.laa {
+  position: relative;
+  left: 4%;
+}
 ul li.skill {
   display: flex;
   align-items: center;
   margin: 36px 36px 12px 36px;
-  width: 260px;
+  width: 303px;
   height: 66.72px;
   background-color: #f7f7f9;
   border-radius: 8px;
   position: relative;
-  left: -5%;
   margin-bottom: 15%;
 }
 
 .fa-solid {
-  position: absolute;
-  left: 60%;
+  display: block;
+  position: relative;
+  left: 280px;
+  bottom: 25px;
 }
 
 .skill_image {
@@ -465,7 +551,7 @@ ul li.skill {
 
 .frameworks {
   margin-bottom: 8%;
-  margin-left: 5%;
+  margin-left: 8%;
   width: 80%;
   font-family: "Poppins", sans-serif;
   font-weight: 600;
@@ -477,7 +563,7 @@ ul li.skill {
 
 .sky {
   margin-bottom: 13px;
-  margin-left: 5%;
+  margin-left: 8%;
   width: 80%;
   font-family: "Poppins", sans-serif;
   font-weight: 600;
@@ -487,9 +573,9 @@ ul li.skill {
   color: #000;
 }
 
-.inm2 {
+.inm {
   position: relative;
-  right: 20px;
+  right: 16px;
   width: 280px;
 }
 
