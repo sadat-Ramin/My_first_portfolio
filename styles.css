@@ -506,7 +506,7 @@ h1 {
   text-decoration: none;
   color: black;
   margin-left: 8%;
-  margin-bottom: -20%;
+  margin-bottom: -30%;
 }
 
 .laa {
@@ -514,7 +514,39 @@ h1 {
   left: 4%;
 }
 
-ul li.skill {
+.items1 {
+  margin-top: -4%;
+}
+
+.frameworks .skills-title {
+  margin-top: 5%;
+}
+
+ul li.skill1 {
+  display: flex;
+  align-items: center;
+  margin: 36px 36px 12px 36px;
+  width: 303px;
+  height: 66.72px;
+  background-color: #f7f7f9;
+  border-radius: 8px;
+  position: relative;
+  margin-bottom: -6%;
+}
+
+ul li.skill2 {
+  display: flex;
+  align-items: center;
+  margin: 36px 36px 12px 36px;
+  width: 303px;
+  height: 66.72px;
+  background-color: #f7f7f9;
+  border-radius: 8px;
+  position: relative;
+  margin-bottom: -6%;
+}
+
+ul li.skill3 {
   display: flex;
   align-items: center;
   margin: 36px 36px 12px 36px;
@@ -550,7 +582,8 @@ ul li.skill {
 }
 
 .frameworks {
-  margin-bottom: 8%;
+  display: block;
+  margin-bottom: 5%;
   margin-left: 8%;
   width: 80%;
   font-family: "Poppins", sans-serif;
@@ -559,6 +592,10 @@ ul li.skill {
   line-height: 20px;
   text-decoration: none;
   color: #000;
+}
+
+.frameworks span {
+  margin-top: 5%;
 }
 
 .sky {
