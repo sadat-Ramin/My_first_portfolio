@@ -584,6 +584,7 @@ ul li.skill3 {
 .frameworks {
   display: block;
   margin-bottom: 5%;
+  margin-top: -4%;
   margin-left: 8%;
   width: 80%;
   font-family: "Poppins", sans-serif;
@@ -592,10 +593,6 @@ ul li.skill3 {
   line-height: 20px;
   text-decoration: none;
   color: #000;
-}
-
-.frameworks span {
-  margin-top: 5%;
 }
 
 .sky {
