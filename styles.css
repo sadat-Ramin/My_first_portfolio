@@ -10,7 +10,7 @@ body {
   max-width: 375px;
   font-family: "Poppins", sans-serif;
   margin: 0 auto;
-  background: #DFE1E6;
+  background: #dfe1e6;
 }
 
 header {
@@ -25,7 +25,7 @@ header {
   align-items: center;
   justify-content: space-between;
   color: #6070ff;
-  margin-top: 0px;
+  margin-top: 0;
   background: #fff;
   height: 70px;
 }
@@ -121,7 +121,7 @@ h1 {
   height: 1200px;
   padding-left: 24px;
   padding-right: 24px;
-  background: #F4F5F7;
+  background: #f4f5f7;
 }
 
 .layout1 {
@@ -130,11 +130,10 @@ h1 {
   align-content: center;
   padding: 14px;
   border-radius: 12px;
-  margin-top: 50px;
   background-color: #fff;
   border: #dfe1e6 solid 2px;
   width: 87%;
-  margin-left: 0px;
+  margin-left: 0;
   margin-top: 100px;
 }
 
@@ -151,7 +150,6 @@ h1 {
   background-color: #fff;
   width: 93%;
   margin-left: -7px;
-
 }
 
 .title1 {
@@ -304,17 +302,17 @@ h1 {
 
 .page2 {
   margin-top: 80px;
-  background: #F4F5F7;
+  background: #f4f5f7;
   width: 375px;
   margin-left: -7%;
 }
+
 .layout2 {
   display: flex;
   flex-direction: column;
   align-content: center;
   padding: 14px;
   border-radius: 12px;
-  margin-top: 50px;
   background-color: #fff;
   border: #dfe1e6 solid 2px;
   width: 87%;
@@ -328,6 +326,7 @@ h1 {
   margin-left: 0%;
   width: 375px;
 }
+
 .layout3 {
   display: flex;
   flex-direction: column;
@@ -345,28 +344,29 @@ h1 {
   display: flex;
   flex-direction: column;
   align-content: center;
-  background:#f4f5f7;
+  background: #f4f5f7;
   margin-left: 0%;
   width: 375px;
 }
+
 .layout4 {
   display: flex;
   flex-direction: column;
   align-content: center;
   padding: 14px;
   border-radius: 12px;
-  margin-top: 50px;
   background-color: #fff;
   border: #dfe1e6 solid 2px;
   width: 87%;
   margin-left: 22px;
   margin-top: 20%;
 }
+
 .page5 {
   display: flex;
   flex-direction: column;
   align-content: center;
-  background:#f4f5f7;
+  background: #f4f5f7;
   margin-left: 0%;
   width: 375px;
   height: 100%;
@@ -378,8 +378,7 @@ h1 {
   align-content: center;
   padding: 25px;
   border-top-right-radius: 65px;
-  margin-top: 50px;
-  background-color:#fff;
+  background-color: #fff;
   width: 100%;
   margin-left: 0%;
   height: 100%;
@@ -493,7 +492,6 @@ h1 {
   align-items: center;
   justify-content: space-between;
   width: 375px;
-  
 }
 
 .accordion li {
@@ -510,10 +508,12 @@ h1 {
   margin-left: 8%;
   margin-bottom: -20%;
 }
+
 .laa {
   position: relative;
   left: 4%;
 }
+
 ul li.skill {
   display: flex;
   align-items: center;
