@@ -617,6 +617,7 @@ ul li.skill3 {
   text-decoration: none;
   color: #000;
 }
+
 /* =====================CONTACT FORM====================== */
 
 .contact_container {
@@ -657,6 +658,7 @@ form {
   justify-content: center;
   padding: 0 2rem;
 }
+
 input {
   font-family: 'Poppins', sans-serif;
   font-size: 17px;
@@ -700,8 +702,9 @@ textarea {
 .btn4 {
   display: flex;
   justify-content: start;
-  margin-left: -1.5rem;
+  margin-left: -1.6rem;
 }
+
 .submit-btn {
   width: 130px;
   text-align: center;
