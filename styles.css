@@ -622,6 +622,7 @@ ul li.skill3 {
 .page6 {
   margin-top: -5%;
 }
+
 .contact_container {
   background-size: cover;
   background-repeat: no-repeat;
@@ -636,7 +637,6 @@ ul li.skill3 {
   background-position: top 20px right;
   background-repeat: no-repeat;
   background-color: #6070ff;
-  height: 850px;
   border-radius: 7rem 0 0 0;
   width: 100%;
   height: 779px;
