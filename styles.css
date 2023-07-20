@@ -617,8 +617,11 @@ ul li.skill3 {
   text-decoration: none;
   color: #000;
 }
-/* =====================CONTACT FORM====================== */
 
+/* =====================CONTACT FORM====================== */
+.page6 {
+  margin-top: -5%;
+}
 .contact_container {
   background-size: cover;
   background-repeat: no-repeat;
@@ -629,13 +632,14 @@ ul li.skill3 {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  background-image: url(image/background/contact\ form\ shapes-mobile.svg);
+  background-image: url(image/background/contact\ form\ shapes-mobile@2x.png);
   background-position: top 20px right;
   background-repeat: no-repeat;
   background-color: #6070ff;
   height: 850px;
   border-radius: 7rem 0 0 0;
   width: 100%;
+  height: 779px;
   margin-top: 25%;
 }
 
@@ -648,6 +652,7 @@ ul li.skill3 {
   text-align: center;
   color: white;
   padding: 1rem 1rem;
+  margin-top: -16%;
 }
 
 form {
@@ -656,7 +661,9 @@ form {
   gap: 1rem;
   justify-content: center;
   padding: 0 2rem;
+  margin-top: 7%;
 }
+
 input {
   font-family: 'Poppins', sans-serif;
   font-size: 17px;
@@ -668,6 +675,7 @@ input {
   outline: none;
   padding: 10px;
   border-radius: 9px;
+  padding-top: 5%;
 }
 
 .contact_container p {
@@ -679,6 +687,7 @@ input {
   text-align: center;
   color: #ebebff;
   padding: 1rem 2rem;
+  margin-top: -4%;
 }
 
 textarea {
@@ -695,6 +704,7 @@ textarea {
   resize: none;
   width: 100%;
   margin-bottom: 1rem;
+  height: 176px;
 }
 
 .btn4 {
@@ -702,6 +712,7 @@ textarea {
   justify-content: start;
   margin-left: -1.5rem;
 }
+
 .submit-btn {
   width: 130px;
   text-align: center;
@@ -719,15 +730,15 @@ textarea {
 
 .submit-btn:hover {
   cursor: pointer;
-  background-color: #fff;
+  background-color: #6070ff;
   box-shadow: 0 0 19px rgba(64, 83, 252, 0.24);
-  transform: translateY(5px);
-  color: blue;
+  transform: translateY(10px);
+  color: #fff;
 }
 
 .submit-btn:active {
   cursor: pointer;
-  background-color: #fff;
+  background-color: blue;
   border: 1px solid #7f8cff;
-  color: #6070ff;
+  color: #fff;
 }
